@@ -1,0 +1,49 @@
+footer .container-fluid{
+    background-color: var(--primaria);
+    height: fit-content;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer .nav-link{
+    font-family: "Times New Roman", serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: var(--branco);
+    text-decoration: none;
+    background: none;
+    transition: all 0.4s;
+    position: relative;
+    height: 100%;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 2px;
+}
+
+footer .nav-link:hover,
+footer .nav-link:focus{
+    background-color: var(--branco);
+    border-radius: 50px;
+    color: var(--primaria) !important;
+}
+
+footer .col,
+footer .row{
+    margin: 0;
+    padding: 0;
+}
+
+footer .link-secondary{
+    margin: 5px;
+    padding: 5px;
+    color: var(--branco) !important;
+}
+
+footer .link-secondary:hover,
+footer .link-secondary:focus{
+    background-color: var(--branco);
+    border-radius: 50px;
+    color: var(--primaria) !important;
+}
